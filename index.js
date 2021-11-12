@@ -26,7 +26,7 @@ async function run(){
         res.send(products)
       })
       // const doc = {
-      //   name: 'amiiii'
+      //   img:'https://4wheelerbd.com/wp-content/uploads/2020/10/nissan-petrol.jpg',name:'Nissan Patrol',price: 78000, description: 'The Nissan Patrol is an off-road large family 4×4 SUV. It offers a level of luxury and value. The Nissan Patrol is a series of four-wheel-drive vehicles manufactured by Nissan in Japan'
       // }
       // const result = await productsCollection.insertOne(doc);
 
