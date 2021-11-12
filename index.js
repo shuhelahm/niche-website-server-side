@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 // pass: QoMaUNcE969EUAoD
 // name: car-bd
 
-const uri = "mongodb+srv://DB_USER:DB_PASS@cluster0.oesrn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "mongodb+srv://car-bd:91yNpTR75TqzIad7@cluster0.oesrn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 async function run(){
   try{
@@ -27,7 +27,7 @@ async function run(){
       // perform actions on the collection object
       // client.close();
     }finally{
-      await client.close();
+      // await client.close();
   }
 }
 run().catch(console.dir);
